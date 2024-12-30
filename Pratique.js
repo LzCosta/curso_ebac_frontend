@@ -1,9 +1,9 @@
 "use strict";
-function calculaAreaTriangulo(base, altura) {
-    return (base * altura) / 2;
+function calculaMultiplicacao(numero1, numero2) {
+    return numero1 * numero2;
 }
-console.log(`A área do triângulo é de: ${calculaAreaTriangulo(10, 5)}m2`);
-function receberNome(nome, sobrenome) {
-    return `Olá ${nome}` + ` ${sobrenome}`;
+console.log(calculaMultiplicacao(3, 5));
+function receberNome(nome) {
+    return "Olá " + nome;
 }
-console.log(receberNome("Lucas", "Vieira"));
+console.log(receberNome("Lucas"));
